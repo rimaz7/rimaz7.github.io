@@ -1,0 +1,292 @@
+/*=========RESET CSS=========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*=========body=========*/
+@font-face{
+    font-family: Roboto;
+    src: url(/Exported%2520Fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+body{
+    font-family: Roboto
+}
+.wrapping{
+    margin-left: 97px;
+    margin-right: 97px;
+    height: 100%;
+    display: flex;
+    align-items: center
+    
+}
+/***********HEADING****************/
+header{
+    width: 100%;
+    height: 67px;
+    background-color: #00ff40;
+    
+    
+}
+
+
+.wrapping ul a{
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    
+}    
+header ul a:hover{
+    background-color: black;
+    padding: 20px;
+    color: white
+    
+}
+header .wrapping{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav{
+    width: 100%;   
+
+}
+.logo img{
+    width: ;
+    height: 120px;
+    margin-top: 10px
+}
+.nav ul{
+    display: flex;
+    justify-content:space-around;
+ 
+}
+
+
+
+/****************Main**************/
+main .wrapping{
+    display: flex;
+    align-items: flex-start
+    
+}
+.left{
+/*    width: 80%;;*/
+    margin: 43px 40px 82px 0px;
+    
+    
+}
+.recent{
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: bolder;
+    border-bottom: 2px solid;
+    width: 170px;
+}
+.article{
+    display: flex;
+    margin: 41px 0px;
+    height: 205px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px
+    
+}
+.article h2{
+    font-size: 19px;
+    font-family: fantasy;
+    color: black;
+    height: 40px;
+/*    background-color: antiquewhite;*/
+    overflow: hidden
+}
+
+.article img{
+    width: 280px;
+    height: 100%;
+    margin-right: 15px
+}
+.content{
+    position: sticky;
+}
+.left p{
+    height: 145px;
+/*    background-color: aqua;*/
+    overflow: hidden
+}
+.content img{
+    width: 15px;
+    height: 15px;
+    
+}
+.like{
+    position: absolute;
+    top: 185px;
+    
+    
+}
+
+.right{
+    margin-top: 105px;
+    width: 200px
+}
+.warning{
+    position: absolute;
+    top: 185px;
+    right: 0px
+}
+.right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    text-align: right
+}
+
+.right li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.right li a.active {
+    background-color: #00ff40;
+    color: black;
+}
+
+.right li a:hover:not(.active) {
+    background-color: #556;
+    color: white;
+}
+.right ul img{
+    width: 20px;
+    height: 20px;
+    float: left
+}
+
+input{
+    width: 100%;
+    margin: 20px 0px;
+    position: static;
+    top: 0px;
+    padding-left: 16px;
+    height: 23px
+    
+    
+}
+.search-box{
+    position: relative
+}
+#search{
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top:25px;
+    left: 3px
+    
+}
+.right img{
+    width: 200px;
+    height: 500px
+}
+
+
+
+
+
+
+
+
+
+
+/****************FOOTER**************/
+
+footer{
+    width: 100%;
+    height: 76px;
+    background-color: #00ff40;
+    margin-top: 30px;    
+    
+}
+
+.copyright{
+    width: 120%;
+    display: flex;
+    color: #808080;
+    font-size: 13px;
+    
+    
+    
+}
+footer .nav{
+    width: 250%
+}
+.social ul{
+    display: flex;
+    
+}
+
+footer .nav a{
+    font-family:fantasy;
+    font-size: 15px
+}
+
+footer img{
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px
+}
+.social a{
+    padding: 0px; 
+    margin: 0px;
+    height: 0px; width: 0px
+}
